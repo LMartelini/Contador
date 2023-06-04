@@ -2,17 +2,18 @@ let buttonIncrement = document.querySelector('#buttonIncrement');
 let buttoDecrement = document.querySelector('#buttonDecrement');
 let valor = document.querySelector('#numero');
 
+novoValor = 0;
+
 function incrementar(){
-    let novoValorIncremento = valor;
-    novoValorIncremento = novoValorIncremento + 1;
-    valor = novoValorIncremento;
+    let novoValor = Number(valor.innerHTML);
+    novoValor = novoValor + 1;
+    valor.innerHTML = novoValor;
 }
 
 function decrementar(){
-    let novoValorDecremento = valor;
-    novoValorDecremento = novoValorDecremento + 1;
-    valor = novoValorDecremento;
-    console.log('oi lais');
+    let novoValor = Number(valor.innerHTML);
+    novoValor = novoValor - 1;
+    valor.innerHTML = novoValor;
 }
 
 buttonIncrement.addEventListener('click', incrementar);
