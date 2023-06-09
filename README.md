@@ -13,7 +13,7 @@
 <h2> 
 	Demonstração do projeto
 </h2>
-<img src="Imagens/Untitled design.gif" alt="Demonstração do projeto">
+<img src="imagens/Untitled designContador.gif" alt="Demonstração do projeto">
 
 <h2> 
 	 🛠 Tecnologias
